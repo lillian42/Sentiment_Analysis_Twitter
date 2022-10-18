@@ -1,7 +1,7 @@
 #### Sentiment Analysis####
 
 
-setwd("/Users/summerkang/Desktop/Social Media Analytics/Group Project")
+setwd("/Users/Social Media Analytics/Group Project")
 northman=fread("nm_final.csv")
 summary(northman$created_at)
 fb=fread("fb_final.csv")
